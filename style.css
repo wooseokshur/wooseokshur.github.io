@@ -325,7 +325,7 @@ figure.slide_wide img {
 figure.slide_wide:hover img{
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate(-660px);
-    transition:0.5s ease-in;
+    transition:0.3s ease-in;
 }
 
 figure.slide_wide figcaption {
