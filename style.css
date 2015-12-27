@@ -126,6 +126,7 @@ html, body {
 }
 
 .work_title{
+
     color:rgb(255,255,255);
     font-size:0.8em;
     font-weight: 600;
@@ -134,7 +135,6 @@ html, body {
     display: inline;
     font-family: open sans;
 }
-
 
 .work_category{
     color:rgb(100,100,100);
@@ -221,7 +221,6 @@ div.work#eee img{
 	min-width: 330px;
 	max-width: 330px;
 	max-height: 400px;
-    width:48%;
 	cursor: pointer;
 }
 .work figure img {
