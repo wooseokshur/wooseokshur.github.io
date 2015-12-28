@@ -24,40 +24,25 @@ html, body {
 .left{
     position: relative;
     float: left;
-    width:80px;
+    width:4%;
+    overflow: hidden;
 }
 
 .left img{
     height:100%;
 }
 
-.lefts{
+.left1{
     float: left;
     position: relative;
-    width:80px;
+    width:100%;
     height: 185px;
 }
-    
-#left01{
-}
-#left02{
-}
-#left03{
+ 
+.left2{
     float: left;
     position: relative;
-    width:80px;
-    height: 400px;
-}
-#left04{
-    float: left;
-    position: relative;
-    width:80px;
-    height: 400px;
-}
-#left07{
-    float: left;
-    position: relative;
-    width:80px;
+    width:100%;
     height: 400px;
 }
 
@@ -69,9 +54,9 @@ html, body {
     position: relative;
     width: 86%;
     margin-top:166px;
-    font-family: Open Sans;
-    font-size: 14px;
-    font-weight: 800;
+    font-family: Brandon Grotesque;
+    font-size: 16px;
+    font-weight: 700;
     letter-spacing: 4px;
     vertical-align: bottom;
     color: rgb(50,50,50);
@@ -82,11 +67,10 @@ html, body {
     float: left;
     position: relative;
     width: 86%;
-    margin-top:165px;
-    margin-bottom: 6px;
-    font-family: Open Sans;
-    font-size: 14px;
-    font-weight: 500;
+    margin-top:160px;
+    font-family: Brandon Grotesque;
+    font-size: 20px;
+    font-weight: 400;
     font-stretch: condensed;
     letter-spacing: 3px;
     vertical-align: bottom;
@@ -98,7 +82,7 @@ html, body {
 
 .wrap{
     top:370px;
-    left:80px;
+    left:4.03%;
     width:94%;
     height: 800px;
     position: absolute;
@@ -126,7 +110,6 @@ html, body {
 }
 
 .work_title{
-
     color:rgb(255,255,255);
     font-size:0.8em;
     font-weight: 600;
@@ -135,6 +118,7 @@ html, body {
     display: inline;
     font-family: open sans;
 }
+
 
 .work_category{
     color:rgb(100,100,100);
@@ -221,6 +205,7 @@ div.work#eee img{
 	min-width: 330px;
 	max-width: 330px;
 	max-height: 400px;
+    width:48%;
 	cursor: pointer;
 }
 .work figure img {
