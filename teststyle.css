@@ -209,7 +209,7 @@ figure.slide:hover figcaption {
         background-position: 50% 50%;
     }
     #coursera{
-        background-image: url(img/mob/coursera%20copy%20copy.jpg);
+        background-image: url(img/mob/coursera.jpg);
         
     }
      #dp{
@@ -220,7 +220,7 @@ figure.slide:hover figcaption {
         height: 115px;
     }
     .wrap{
-        top:300px;
+        top:333px;
         left:5%;
         width:94%;
         height: 800px;
