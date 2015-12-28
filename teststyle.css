@@ -216,11 +216,9 @@ figure.slide:hover figcaption {
         background-image: url(img/mob/dp.jpg);
         
     }
-    #left02{
-        height: 115px;
-    }
+    
     .wrap{
-        top:333px;
+        top:370px;
         left:5%;
         width:94%;
         height: 800px;
