@@ -156,7 +156,13 @@ figure.slide:hover figcaption {
 
 
 
-@media only screen and (max-width: 479px) and (min-width: 320px){
+
+/*iPhone 6 and iPhone 6+ portrait*/
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px) and (orientation : portrait){ 
+
+
+        
+        
     .name{
         margin-top: 164px;
         font-size: 12px;
