@@ -71,8 +71,8 @@ html, body {
 
 
 .bodytext{
-    font-family: Brandon_reg;
-    font-size: 18px;
+    font-family: open sans;
+    font-size: 16px;
     font-weight: 400;
     font-stretch: condensed;
     letter-spacing: 3px;
@@ -85,9 +85,9 @@ html, body {
     position: relative;
     width: 86%;
     margin-top:160px;
-    font-family: Brandon_reg;
+    font-family: Open Sans;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 4px;
     vertical-align: bottom;
     color: rgb(50,50,50);
