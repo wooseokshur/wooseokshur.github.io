@@ -37,9 +37,9 @@
     } 
     .name{
         margin-top: 175px;
-        font-size: 13px;
-        font-weight: 700;
-        letter-spacing: 4px;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 3.6px;
         vertical-align: bottom;
         color: rgb(50,50,50);
     }
@@ -49,14 +49,14 @@
         opacity: 0;
     }
     .wrap{
-        left:5%;
-        width:94%;
+        left:6%;
+        width:92%;
         height: 800px;
         position: absolute;
     }
     .work{
         width: 95%;
-        height: 24%;
+        height: 29%;
         position: relative;
         float:left;
         font-family: Brandon Grotesque;
