@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Brandon Grotesque Regular';
+  src: url('Brandon_reg.eot'); /* IE9 Compat Modes */
+  src: url('Brandon_reg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Brandon_reg.woff') format('woff'), /* Modern Browsers */
+       url('Brandon_reg.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Brandon_reg.svg#50bf5a2005a5412419d6a4b30314e68e') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
