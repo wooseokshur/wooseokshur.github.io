@@ -1,7 +1,4 @@
-@media only screen
-  and (max-device-width: 640px),
-  only screen and (max-device-width: 667px),
-  only screen and (max-width: 480px){ 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
 
 
     .left{
@@ -37,8 +34,8 @@
         background-size:cover;
     } 
     .name{
-        margin-top: 173px;
-        font-size: 15px;
+        margin-top: 175px;
+        font-size: 13px;
         font-weight: 700;
         letter-spacing: 4px;
         vertical-align: bottom;
