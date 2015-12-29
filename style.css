@@ -45,8 +45,7 @@ html, body {
     margin: 0 !important;
     padding: 0 !important;
     background-color: rgb(245,245,245);
-    font-family: maison_neuebook;
-    overflow: hidden;
+    font-family: maison_neuebook
 }
 
 .container{
