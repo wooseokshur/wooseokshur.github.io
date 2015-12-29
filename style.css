@@ -106,7 +106,7 @@ html, body {
     margin-top: 163px;
     padding-left: 0.7%;
     font-size: 16px;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     vertical-align: bottom;
     color: rgb(50,50,50);  
 }
@@ -168,7 +168,8 @@ html, body {
 div.work_wide2#about{
     height: 185px;
     width: 85%;
-    font-family: Brandon_reg;
+    font-family: brandon_grotesque_regularRg;
+    font-size: 16px;
 }
 div.work#about1{
     line-height: 350px;
@@ -176,18 +177,15 @@ div.work#about1{
     float:left;
     height: inherit;
     letter-spacing: 3px;
-    font-size:1em;
 }
 
 div.work#about_des{
-    font-size:0.8em;
     height: inherit;
-    float:left;
+    float: left;
     width: 320px;
-    
-    font-weight: 300;
     line-height: 1em;
     letter-spacing: 1px;
+    margin-top: 7%;
 }
 
 
