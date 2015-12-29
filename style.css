@@ -11,7 +11,6 @@
     font-family: 'maison_neuebook';
     src: url('maisonneuebook-webfont.eot');
     src: url('maisonneuebook-webfont.eot?#iefix') format('embedded-opentype'),
-         url('maisonneuebook-webfont.woff2') format('woff2'),
          url('maisonneuebook-webfont.woff') format('woff'),
          url('maisonneuebook-webfont.ttf') format('truetype'),
          url('maisonneuebook-webfont.svg#maison_neuebook') format('svg');
@@ -24,7 +23,6 @@
     font-family: 'maison_neuelight';
     src: url('maisonneue-light-webfont.eot');
     src: url('maisonneue-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('maisonneue-light-webfont.woff2') format('woff2'),
          url('maisonneue-light-webfont.woff') format('woff'),
          url('maisonneue-light-webfont.ttf') format('truetype'),
          url('maisonneue-light-webfont.svg#maison_neuelight') format('svg');
@@ -48,6 +46,7 @@ html, body {
     padding: 0 !important;
     background-color: rgb(245,245,245);
     font-family: maison_neuebook;
+    overflow: hidden;
 }
 
 .container{
