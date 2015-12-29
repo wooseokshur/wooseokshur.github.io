@@ -70,6 +70,7 @@
     } 
     .name{
         margin-top: 172px;
+        margin-left: 1%;
         font-size: 12px;
         font-weight: 600;
         letter-spacing: 3.6px;
@@ -157,8 +158,30 @@
     }
     
     
+    .work_des{
+        font-size: 12px;
+        width: 93%;
 
-    
+    }  
+    div.work_des#title{
+        letter-spacing: 2px;
+        text-align: left;
+        margin-left: 3%;
+    }
+    div.work_des#des {
+        margin: 5% 0 -10% 3%;
+        line-height: 14px;
+    }
+    .work_wide3 {
+        width: 96%;
+            margin-left: 0;
+    }
+    .work_wide3 img{
+        width: 100%;
+    }
+        
+        
+        
 }
 
 

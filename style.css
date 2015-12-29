@@ -49,13 +49,14 @@ html, body {
     margin: 0 !important;
     padding: 0 !important;
     background-color: rgb(245,245,245);
-    font-family: maison_neuebook
+    font-family: brandon_grotesque_regularRg;
 }
 
 .container{
     width:100%;
     position: relative;
     height: 100%;
+    font-family: brandon_grotesque_regularRg;
 }
 
 .left{
@@ -102,26 +103,24 @@ html, body {
     float: left;
     position: relative;
     width: 86%;
-    margin-top:173px;
-    font-family: maison_neuebook;
+    margin-top: 163px;
+    padding-left: 0.7%;
     font-size: 16px;
     letter-spacing: 4px;
     vertical-align: bottom;
-    color: rgb(50,50,50);
-    
-    
+    color: rgb(50,50,50);  
 }
 .index{
     float: left;
     position: relative;
     width: 86%;
-    margin:145px 0 0 0.8%; 
+    margin:165px 0 0 0.8%; 
     color: rgb(50,50,50);
+    font-size:16px;
     line-height: 9px;   
     letter-spacing: 2px;
 }
 .bodytext{
-    font-family: maison_neuebook;
     font-size: 14px;
     line-height :15px;
     vertical-align: bottom;
@@ -151,7 +150,7 @@ html, body {
     line-height: 1.5em;
     margin:0;
     display: inline;
-    font-family: Brandon_reg;
+    font-family: brandon_grotesque_regularRg;
 }
 
 
@@ -161,7 +160,7 @@ html, body {
     line-height: 1em;
     margin:0;
     display: inline;
-    font-family: Brandon_reg;
+    font-family: brandon_grotesque_regularRg;
 }
 
 
