@@ -1,4 +1,28 @@
+@font-face {
+    font-family: 'maison_neuebook';
+    src: url('../../maisonneuebook-webfont.eot');
+    src: url('../../maisonneuebook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../maisonneuebook-webfont.woff2') format('woff2'),
+         url('../../maisonneuebook-webfont.woff') format('woff'),
+         url('../../maisonneuebook-webfont.ttf') format('truetype'),
+         url('../../maisonneuebook-webfont.svg#maison_neuebook') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+@font-face {
+    font-family: 'maison_neuelight';
+    src: url('maisonneue-light-webfont.eot');
+    src: url('maisonneue-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('maisonneue-light-webfont.woff2') format('woff2'),
+         url('maisonneue-light-webfont.woff') format('woff'),
+         url('maisonneue-light-webfont.ttf') format('truetype'),
+         url('maisonneue-light-webfont.svg#maison_neuelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 @import url(http://fonts.googleapis.com/css?family=EB+Garamond);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
@@ -72,9 +96,8 @@ html, body {
     position: relative;
     width: 86%;
     margin-top:166px;
-    font-family: open sans;
+    font-family: maison_neuebook;
     font-size: 14px;
-    font-weight: 700;
     font-stretch: condensed;
     letter-spacing: 4px;
     vertical-align: bottom;
@@ -91,9 +114,8 @@ html, body {
     width: 86%;
     margin-top:165px;
     margin-bottom: 6px;
-    font-family: open sans;
+    font-family: maison_neuebook;
     font-size: 14px;
-    font-weight: 500;
     font-stretch: condensed;
     letter-spacing: 3px;
     vertical-align: bottom;

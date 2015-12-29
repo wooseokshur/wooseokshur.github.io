@@ -1,0 +1,416 @@
+@font-face {
+    font-family: 'maison_neuebook';
+    src: url('../maisonneuebook-webfont.eot');
+    src: url('../maisonneuebook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../maisonneuebook-webfont.woff2') format('woff2'),
+         url('../maisonneuebook-webfont.woff') format('woff'),
+         url('../maisonneuebook-webfont.ttf') format('truetype'),
+         url('../maisonneuebook-webfont.svg#maison_neuebook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'maison_neuelight';
+    src: url('../maisonneue-light-webfont.eot');
+    src: url('../maisonneue-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../maisonneue-light-webfont.woff2') format('woff2'),
+         url('../maisonneue-light-webfont.woff') format('woff'),
+         url('../maisonneue-light-webfont.ttf') format('truetype'),
+         url('../maisonneue-light-webfont.svg#maison_neuelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+
+html, body {    
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: rgb(245,245,245);
+}
+
+.container{
+    width:100%;
+    position: relative;
+    height: 100%;
+}
+
+.left{
+    position: relative;
+    float: left;
+    width:5%;
+    overflow: hidden;
+    
+}
+
+.left img{
+    height:100%;
+}
+
+.left185{
+    float: left;
+    position: relative;
+    width:100%;
+    height: 185px;
+    
+}
+
+#left01{
+    background-image: url(../img/left01.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+
+ 
+.left400{
+    float: left;
+    position: relative;
+    width:100%;
+    height: 1200px;
+    background-image: url(../img/linenew.svg);
+    background-repeat: repeat-y;
+    background-size:cover;
+}
+
+
+
+
+.name{
+    float: left;
+    position: relative;
+    width: 86%;
+    margin-top:173px;
+    font-family: maison_neuebook;
+    font-size: 16px;
+    letter-spacing: 4px;
+    vertical-align: bottom;
+    color: rgb(50,50,50);
+    
+    
+}
+.name a{
+    color: rgb(50,50,50);
+    text-decoration: none;
+}
+
+.index{
+    float: left;
+    position: relative;
+    width: 86%;
+    margin:150px 0 0 0.8%;
+    
+    color: rgb(50,50,50);
+    line-height: 9px;
+    
+}
+.bodytext{
+    font-family: maison_neuebook;
+    font-size: 14px;
+    line-height: 17px;
+    vertical-align: bottom;
+}
+
+.wrap{
+    top:370px;
+    left:5%;
+    width:94%;
+    height: 800px;
+    position: absolute;
+}
+.work{
+    width: 330px;
+    height: 400px;
+    position: relative;
+    float:left;
+    color: rgb(50,50,50);
+}
+.work_wide{
+    width: 660px;
+    height: 400px;
+    position: relative;
+    float:left;
+}
+.work_wide2{
+    width: 990px;
+    height: 400px;
+    position: relative;
+    float:left;
+    
+    
+}
+.work_wide2 img{
+    width:100%;
+}
+.work_wide3{
+    max-width: 1320px;
+    height: 737px;
+    position: relative;
+    float:left;
+    margin-left: 10px;
+}
+.work_wide3 img{
+    margin-top:10px;
+    width:1310px;
+}
+
+.work_des{
+    width: 650px;
+    height: 330px;
+    position: relative;
+    float:left;
+    color: rgb(50,50,50);
+    
+}
+
+div.work_des#title{
+    letter-spacing: 2px;
+    text-align: right;
+}
+
+div.work_des#des{
+    letter-spacing: 1px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+div.work_des a {color:rgb(50,50,50); text-decoration: underline; cursor: pointer;}
+
+div.work#work02 a {color:rgb(50,50,50); text-decoration: underline; cursor: pointer;}
+
+
+.about{
+    float: left;
+    position: relative;
+    width: 1300px;
+    height: 185px;
+    right: 0;
+    font-family: open sans;
+    font-size: 14px;
+    font-stretch: condensed;
+    letter-spacing: 2px;
+    vertical-align: bottom;
+    color: rgb(50,50,50);
+    line-height: 14px;
+    text-align: right;
+}
+
+
+
+.about a{
+    color: rgb(50,50,50);
+    text-decoration: none;
+    cursor: pointer;
+}
+.about a:hover{
+    color: rgb(150,150,150);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.work#about_des {
+    letter-spacing: 3px;
+}
+.#about1{
+    letter-spacing: 3px;
+}
+
+div.work#gif img{
+    width:inherit;
+    margin: 0;
+    align-content: center;
+}
+
+div.work#gif {
+    width: 280px;
+    height: 569px;
+    margin : 1.8%;
+    margin-top:10%;
+    margin-bottom: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 479px) and (min-width: 320px){ 
+
+    .bodytext{
+        font-family: maison_neuebook;
+        font-size: 28px;
+        line-height: 30px;
+        vertical-align: bottom;
+    }
+        
+   .left185{
+        float: left;
+        position: relative;
+        width:100%;
+        height: 215px;
+
+    }
+
+    #left01{
+        background-image: url(../img/left01.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+
+    .left400{
+        float: left;
+        position: relative;
+        width:100%;
+        height: 1200px;
+        background-image: url(../img/linenew.svg);
+        background-repeat: repeat-y;
+        background-size:cover;
+    } 
+    .name{
+        margin-top: 177px;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        vertical-align: bottom;
+        color: rgb(50,50,50);
+    }
+    .index{
+        margin:150px 0 0 4%;
+    
+        opacity: 0;
+    }
+    .work{
+        width: 95%;
+        height: 75%;
+        position: relative;
+        float:left;
+        font-family: Brandon Grotesque;
+        font-weight: 400;
+        margin-bottom: 3%;
+        background-repeat: no-repeat;
+        background-size:100%;
+        background-position: 50% 50%;
+    }
+    figure {
+        opacity: 0;
+    }
+    
+    figure :hover{
+        opacity: 0;
+    }
+
+    .work_wide{
+        width: 95%;
+        height: 75%;
+        position: relative;
+        float:left;
+        font-family: Brandon Grotesque;
+        font-weight: 400;
+        margin-bottom: 3%;
+        background-repeat: no-repeat;
+        background-size:100%;
+        background-position: 50% 50%;
+    }
+    
+    
+    
+    
+    #left01{
+        background-image: url(../img/lineleft1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #coursera{
+        background-image: url(img/mob/coursera.jpg);
+        
+    }
+    #dp{
+        background-image: url(img/mob/dp.jpg); 
+    }
+    #fleet{
+        background-image: url(img/mob/fleet.jpg); 
+    }
+    #ebola{
+        background-image: url(img/mob/ebola.jpg); 
+    }
+    #uncon{
+        background-image: url(img/mob/uncon.jpg); 
+    }
+    #bigger{
+        background-image: url(img/mob/bigger.jpg); 
+    }
+    #spatiality{
+        background-image: url(img/mob/spatiality.jpg); 
+    }
+    #academy{
+        background-image: url(img/mob/academy.jpg); 
+    }
+    
+    .wrap{
+        top:430px;
+        left:5%;
+        width:94%;
+        height: 800px;
+        position: absolute;
+    }
+    .work_wide3{
+        max-width: 1320px;
+        height: 737px;
+        position: relative;
+        float:left;
+        margin-left: 10px;
+    }
+    
+    .work_wide3 img {
+        margin-top: 10px;
+        width: 95%;
+    }
+    .work_des{
+        width: 49%;
+        height: 330px;
+        position: relative;
+        float:left;
+        color: rgb(50,50,50);
+
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

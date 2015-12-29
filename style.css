@@ -96,21 +96,11 @@ html, body {
 
 
 
-
-.bodytext{
-    font-family: maison_neuebook;
-    font-size: 16px;
-    font-stretch: condensed;
-    letter-spacing: 3px;
-    vertical-align: bottom;
-}
-
-
 .name{
     float: left;
     position: relative;
     width: 86%;
-    margin-top:167px;
+    margin-top:173px;
     font-family: maison_neuebook;
     font-size: 16px;
     letter-spacing: 4px;
@@ -123,13 +113,17 @@ html, body {
     float: left;
     position: relative;
     width: 86%;
-    margin:150px 0 0 0.8%;
-    
+    margin:145px 0 0 0.8%; 
     color: rgb(50,50,50);
-    line-height: 9px;
-    
+    line-height: 9px;   
+    letter-spacing: 2px;
 }
-
+.bodytext{
+    font-family: maison_neuebook;
+    font-size: 14px;
+    line-height :15px;
+    vertical-align: bottom;
+}
 
 .wrap{
     top:370px;
