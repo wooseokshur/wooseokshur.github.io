@@ -113,7 +113,7 @@
         height: 24%;
         position: relative;
         float:left;
-        font-family: maison_neuebook;
+        font-family: brandon_grotesque_regularRg;
         font-weight: 400;
         margin-bottom: 3%;
         background-repeat: no-repeat;
@@ -168,8 +168,8 @@
         margin-left: 3%;
     }
     div.work_des#des {
-        margin: 5% 0 -10% 3%;
-        line-height: 14px;
+        margin: 4% 0 0% 3%;
+        line-height: 15px;
     }
     .work_wide3 {
         width: 96%;
@@ -178,7 +178,23 @@
     .work_wide3 img{
         width: 100%;
     }
-        
+       
+    .about{
+        padding-top: 10%;
+        margin-bottom: 10%;
+        float: left;
+        position: relative;
+        width: 100%;
+        right: 0;
+        font-family: brandon_grotesque_regularRg;
+        font-size: 12px;
+        font-stretch: condensed;
+        letter-spacing: 2px;
+        vertical-align: bottom;
+        color: rgb(50,50,50);
+        line-height: 14px;
+        text-align: right;
+    }
         
         
 }
