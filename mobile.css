@@ -70,9 +70,8 @@
     } 
     .name{
         margin-top: 172px;
-        margin-left: 1%;
+        margin-left: 2%;
         font-size: 12px;
-        font-weight: 600;
         letter-spacing: 3.6px;
         vertical-align: bottom;
         color: rgb(50,50,50);
@@ -94,7 +93,7 @@
         height: 29%;
         position: relative;
         float:left;
-        font-family: maison_neuebook;
+        font-family: brandon_grotesque_regularRg;
         font-weight: 400;
         margin-bottom: 3%;
         background-repeat: no-repeat;
