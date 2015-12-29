@@ -7,6 +7,33 @@
 	font-style: normal;
 }
 
+@font-face {
+    font-family: 'maison_neuebook';
+    src: url('maisonneuebook-webfont.eot');
+    src: url('maisonneuebook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('maisonneuebook-webfont.woff2') format('woff2'),
+         url('maisonneuebook-webfont.woff') format('woff'),
+         url('maisonneuebook-webfont.ttf') format('truetype'),
+         url('maisonneuebook-webfont.svg#maison_neuebook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'maison_neuelight';
+    src: url('maisonneue-light-webfont.eot');
+    src: url('maisonneue-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('maisonneue-light-webfont.woff2') format('woff2'),
+         url('maisonneue-light-webfont.woff') format('woff'),
+         url('maisonneue-light-webfont.ttf') format('truetype'),
+         url('maisonneue-light-webfont.svg#maison_neuelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 @import url(http://fonts.googleapis.com/css?family=EB+Garamond);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
@@ -20,7 +47,7 @@ html, body {
     margin: 0 !important;
     padding: 0 !important;
     background-color: rgb(245,245,245);
-    font-family: Brandon_reg;
+    font-family: maison_neuebook;
 }
 
 .container{
@@ -71,9 +98,8 @@ html, body {
 
 
 .bodytext{
-    font-family: open sans;
+    font-family: maison_neuebook;
     font-size: 16px;
-    font-weight: 400;
     font-stretch: condensed;
     letter-spacing: 3px;
     vertical-align: bottom;
@@ -84,10 +110,9 @@ html, body {
     float: left;
     position: relative;
     width: 86%;
-    margin-top:160px;
-    font-family: Open Sans;
+    margin-top:167px;
+    font-family: maison_neuebook;
     font-size: 16px;
-    font-weight: 600;
     letter-spacing: 4px;
     vertical-align: bottom;
     color: rgb(50,50,50);
@@ -98,7 +123,7 @@ html, body {
     float: left;
     position: relative;
     width: 86%;
-    margin:145px 0 0 0.8%;
+    margin:150px 0 0 0.8%;
     
     color: rgb(50,50,50);
     line-height: 9px;
