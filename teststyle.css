@@ -181,7 +181,7 @@ figure.slide:hover figcaption {
         float: left;
         position: relative;
         width:100%;
-        height: 215px;
+        height: 185px;
 
     }
 
@@ -203,21 +203,27 @@ figure.slide:hover figcaption {
         background-size:cover;
     } 
     .name{
-        margin-top: 177px;
-        font-size: 30px;
+        margin-top: 173px;
+        font-size: 15px;
         font-weight: 700;
         letter-spacing: 4px;
         vertical-align: bottom;
         color: rgb(50,50,50);
     }
     .index{
-        margin:150px 0 0 4%;
-    
+        height: 183px;
+        margin: 0;
         opacity: 0;
+    }
+    .wrap{
+        left:5%;
+        width:94%;
+        height: 800px;
+        position: absolute;
     }
     .work{
         width: 95%;
-        height: 75%;
+        height: 24%;
         position: relative;
         float:left;
         font-family: Brandon Grotesque;
@@ -237,7 +243,7 @@ figure.slide:hover figcaption {
 
     .work_wide{
         width: 95%;
-        height: 75%;
+        height: 24%;
         position: relative;
         float:left;
         font-family: Brandon Grotesque;
@@ -283,13 +289,7 @@ figure.slide:hover figcaption {
         background-image: url(img/mob/academy.jpg); 
     }
     
-    .wrap{
-        top:430px;
-        left:5%;
-        width:94%;
-        height: 800px;
-        position: absolute;
-    }
+    
 
     
 }
