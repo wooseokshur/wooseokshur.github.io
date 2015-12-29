@@ -4,6 +4,10 @@
     and (orientation : portrait) 
     and (-webkit-min-device-pixel-ratio : 2){ 
 
+        
+        body{
+            width: 750px;
+        }
 
     .left{
         position: relative;
