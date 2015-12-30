@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Neuzeit S LT Std Book';
+  src: url('NeuzeitSLTStd-Book.eot'); /* IE9 Compat Modes */
+  src: url('NeuzeitSLTStd-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('NeuzeitSLTStd-Book.woff') format('woff'), /* Modern Browsers */
+       url('NeuzeitSLTStd-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('NeuzeitSLTStd-Book.svg#0f36e451afbb48ba6ebc31554b154772') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

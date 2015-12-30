@@ -2,6 +2,19 @@
     and (min-device-width : 375px) 
     and (max-device-width : 667px) { 
     
+       
+    @font-face {
+      font-family: 'Neuzeit S LT Std Book';
+      src: url('NeuzeitSLTStd-Book.eot'); /* IE9 Compat Modes */
+      src: url('NeuzeitSLTStd-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+           url('NeuzeitSLTStd-Book.woff') format('woff'), /* Modern Browsers */
+           url('NeuzeitSLTStd-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+           url('NeuzeitSLTStd-Book.svg#0f36e451afbb48ba6ebc31554b154772') format('svg'); /* Legacy iOS */
+
+      font-style:   normal;
+      font-weight:  400;
+    }
+
         
     @font-face {
         font-family: 'maison_neuebook';
@@ -32,7 +45,7 @@
         margin: 0 !important;
         padding: 0 !important;
         background-color: rgb(245,245,245);
-        font-family: maison_neuebook;
+        font-family: Neuzeit S LT Std Book;
         overflow-x: hidden;
     }
 
@@ -69,13 +82,12 @@
         background-size:cover;
     } 
     .name{
-        margin-top: 172px;
+        margin-top: 175px;
         margin-left: 2%;
         font-size: 12px;
         letter-spacing: 3.6px;
         vertical-align: bottom;
         color: rgb(50,50,50);
-        font-family: brandon_grotesque_regularRg;
     }
     .index{
         height: 183px;
@@ -93,7 +105,6 @@
         height: 29%;
         position: relative;
         float:left;
-        font-family: brandon_grotesque_regularRg;
         font-weight: 400;
         margin-bottom: 3%;
         background-repeat: no-repeat;
@@ -113,7 +124,6 @@
         height: 24%;
         position: relative;
         float:left;
-        font-family: brandon_grotesque_regularRg;
         font-weight: 400;
         margin-bottom: 3%;
         background-repeat: no-repeat;
@@ -186,13 +196,12 @@
         position: relative;
         width: 100%;
         right: 0;
-        font-family: brandon_grotesque_regularRg;
-        font-size: 12px;
+        font-size: 8px;
         font-stretch: condensed;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         vertical-align: bottom;
         color: rgb(50,50,50);
-        line-height: 14px;
+        line-height: 10px;
         text-align: right;
     }
 
