@@ -82,7 +82,7 @@
         background-size:cover;
     } 
     .name{
-        margin-top: 175px;
+        margin-top: 174px;
         margin-left: 2%;
         font-size: 12px;
         letter-spacing: 3.6px;
@@ -105,7 +105,6 @@
         height: 29%;
         position: relative;
         float:left;
-        font-weight: 400;
         margin-bottom: 3%;
         background-repeat: no-repeat;
         background-size:100%;
@@ -124,7 +123,6 @@
         height: 24%;
         position: relative;
         float:left;
-        font-weight: 400;
         margin-bottom: 3%;
         background-repeat: no-repeat;
         background-size:100%;
@@ -189,21 +187,36 @@
         width: 100%;
     }
        
-    .about{
+    #about{
         padding-top: 10%;
         margin-bottom: 10%;
         float: left;
         position: relative;
         width: 100%;
-        right: 0;
         font-size: 8px;
+        line-height: 9px;
         font-stretch: condensed;
         letter-spacing: 1px;
         vertical-align: bottom;
         color: rgb(50,50,50);
-        line-height: 10px;
-        text-align: right;
     }
+    
+    div.work#about1{
+        line-height: 350px;
+        width: 330px;
+        float:left;
+        height: inherit;
+    }
+
+    div.work#about_des{
+        height: inherit;
+        float: left;
+        width: 320px;
+        margin-top: 7%;
+    }
+        div.work_wide2#about{
+            font-size: 12px;
+        }
 
     iframe{
         width: 100%;
