@@ -239,29 +239,38 @@ div.work#eee img{
     
 }
 
+#white{
+    background-image: url(img/line4.svg);
+}
+#rebuild{
+    background-image: url(img/line5.svg);
+}
 #coursera{
     background-image: url(img/line2.svg);
 }
-#dp{
-    background-image: url(img/line5.svg);
+#princeton{
+    background-image: url(img/line6.svg);
 }
 #fleet{
-    background-image: url(img/line3.svg);
+    background-image: url(img/line1.svg);
+}
+#dp{
+    background-image: url(img/line6.svg);
 }
 #ebola{
-    background-image: url(img/line4.svg);
+    background-image: url(img/line5.svg);
 }
 #uncon{
-    background-image: url(img/line6.svg);
+    background-image: url(img/line4.svg);
 }
 #bigger{
     background-image: url(img/line2.svg);
 }
 #academy{
-    background-image: url(img/line4.svg);
+    background-image: url(img/line3.svg);
 }
 #spatiality{
-    background-image: url(img/line5.svg);
+    background-image: url(img/line4.svg);
 }
 
 
