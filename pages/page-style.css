@@ -187,7 +187,7 @@ html, body {
 }
 
 .work_des{
-    width: 36%;
+    width: 35%;
     position: relative;
     float:left;
     color: rgb(50,50,50);
@@ -196,8 +196,10 @@ html, body {
 }
 
 div.work_des#title{
-    text-align: right;
-}
+    text-align: left;
+    }
+#title{
+    padding-left: 1%;}
 
 div.work_des#des{
     margin-left: 20px;
