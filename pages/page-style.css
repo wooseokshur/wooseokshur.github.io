@@ -177,7 +177,7 @@ html, body {
     margin-top: 10%;
     width: 100%;
     max-width: 1320px;
-    height: 737px;
+    height: auto;
     position: relative;
     float:left;
 }
