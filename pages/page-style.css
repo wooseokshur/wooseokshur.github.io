@@ -191,7 +191,7 @@ html, body {
     position: relative;
     float:left;
     color: rgb(50,50,50);
-    letter-spacing: 0px;
+    letter-spacing: 0.1px;
     
 }
 
