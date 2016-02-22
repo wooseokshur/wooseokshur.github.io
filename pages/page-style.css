@@ -121,7 +121,7 @@ html, body {
     margin-top: 167px;
     padding-left: 0.7%;
     font-size: 16px;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     vertical-align: bottom;
     color: rgb(50,50,50);  
 }
@@ -191,7 +191,7 @@ html, body {
     position: relative;
     float:left;
     color: rgb(50,50,50);
-    letter-spacing: 0.1px;
+    letter-spacing: 0.2px;
     
 }
 
