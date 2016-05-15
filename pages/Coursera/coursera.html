@@ -1,91 +1,83 @@
 
+
+<!DOCTYPE html>
 <head>
      <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0, width=device-width">
-    <title> w portfolio</title>
+    
+    <title> wooseok shur</title>
+    
     
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     
-    <link rel="stylesheet" href="../page-style.css">
-    <link rel="stylesheet" href="../../mobile.css">
-     <link rel="icon" 
-      type="image/png" 
-      href="../../img/favicon-01.png">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="icon" type="image/png" href="img/favicon-01.png">
+    
+    
 </head>
 
 
 
 
 <body>
-<div class='container'>
-    <div class='left'>
-        <div class='left185' id="left01">
-            
+     <div class="workinfo">
+        <div class="halftop">
+            COURSERA<sup class="sup">2015</sup>
+            <br>—<br>Rebranding Coursera<br>
+            <p class="bodytext">Rebrand of the Coursera and improvement for the imbalance between the web and the mobile experience. <br>Coursera is a web education service which is more aobut the live field of knowledge, not a collection of skills and techniques. A slash "/" is used in computing as a separator among levels in a file hierarchy. It is the path components that allows us to access certain information, and there is the idea of infinity. To bring this conecpt of connectivity among huge knowldege and information, serviced by Coursera, the slash "/" used as the mark.
+                
+                
+                
+                
+            </p>
+        </div>  
+        <div class="halftop" id="back">
+            <div class="halfbottom"> <a href="../../index.html">Back</a></div>
         </div>
-        <div class='left185' id="left02" >
-           
-        </div>
-        <div class='left400'>
-        </div>
-        
     </div>
     
-    
-    
-    <div class="name"><a href="../../index.html">WOOSEOK SHUR</a></div>
-    <div class='index'><br></div>
-    
-    
-    
-    
-    
-    <div class='wrap'>
-        
-            <div class="work_des" id="title">Coursera</p>
-            </div>
-
-            <div class="work_des" id="des">
-    <a href="http://sws87.github.io/coursera/" target="framename">
-
-                    Link here</a><br>
-<br>
-    Rebrand of the Coursera and improvement for the imbalance between the web and the mobile experience. Coursera is an web education service, not a collection of skills and techniques, which is the live field of knowledge. To illustrate that aspect
-
-            
-            </div>
-      
-    
-    
-        <div class="work_wide3" id='work04' style>
-            
+    <div class="img_wrap">
+        <div class="img_box">
+            <img src ="img/00.jpg" ><br>
             <img src ="img/Untitled-0-0.jpg" ><br>
-            
+            <img src ="img/Untitled-0-1.jpg" ><br>
             <img src ="img/Untitled-4.jpg" ><br>
             <img src ="img/Untitled-2.jpg" ><br>
             <img src ="img/Untitled-3.jpg" ><br>
             <img src ="img/Untitled-5.jpg" ><br>
-            <div class='about'>
-                <a href="../rebuild/rebuild.html">before</a> / <a href="../princeton/princeton.html">next</a>
-            
-            
-            
         </div>
-    </div> 
-        
-        
- 
     
     
     
     
-    
-</div>
     
 </body>
 
 
+<script>
+function get_random_color() {
+    var letters = '0123456789ABCDEF'.split('');
+    var color = '#';
+    for (var i = 0; i < 6; i++ ) {
+        color += letters[Math.round(Math.random() * 15)];
+    }
+    return color;
+}
 
-
-
-</html>
+$(function() {
+    $("a").mouseover(function() {
+        $(this).css({"color":get_random_color(),"transition":"0.3s"});
+        
+    });
+    
+    $("a").mouseout(function() {
+        $(this).css({"color":"black","transition":"0.5s"});
+    });
+});
+</script>
+    
+    
+    
+    

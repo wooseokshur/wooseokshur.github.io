@@ -1,99 +1,74 @@
+
+<!DOCTYPE html>
 <head>
-    <meta charset="utf-8">
+     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0, width=device-width">
-    <title> w portfolio</title>
-    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+    
+    <title> wooseok shur</title>
+    
     
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     
-    <link rel="stylesheet" href="../page-style.css">
-    <link rel="stylesheet" href="../../mobile.css">
-     <link rel="icon" type="image/png" href="../../img/favicon-01.png">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="icon" type="image/png" href="img/favicon-01.png">
+    
+    
 </head>
 
 
 
 
 <body>
-<div class='container'>
-    <div class='left'>
-        <div class='left185' id="left01">
-            
+     <div class="workinfo">
+        <div class="halftop">
+            Graphic Design Sampling<sup class="sup">2015</sup>
+            <br>—<br>Degree Project<br>
+            <p class="bodytext"><a href="http://wooseokshur.co/sampling/index.html" target="_blank">Link here</a> (only available at w:1920px) <br>
+
+The project Graphic Design Sampling is about the way to disprove the precondition of design ; be FRESH and UNIQUE. However, design, not only design all the thoughts, cannot be originated itself, rather all those are derived from others. If we cannot be totally free from influences, start from being completely derivative. I began by applying the statistical sampling as the design method to interpret the machinery graphic design world, and then created the sort of blueprint, consists of the frame of graphic design works, by borrowing the concept of musical sampling. The result is the collection of all existing works.</p>
+        </div>  
+        <div class="halftop" id="back">
+            <div class="halfbottom"> <a href="../../index.html">Back</a></div>
         </div>
-        <div class='left185' id="left02" >
-           
-        </div>
-        <div class='left400'>
-        </div>
-        
     </div>
     
-    
-    
-    <div class="name"><a href="../../index.html">WOOSEOK SHUR</a></div>
-    <div class='index'><br></div>
-    
-    
-    
-    
-    
-    <div class='wrap'>
-        
-        
-        
-        <div class="work_des" id="title">Graphic Design Sampling</p>
-            </div>
-
-            <div class="work_des" id="des">
-    <a href="http://sws87.github.io/sampling/map/map.html" target="framename">
-
-                    Link here</a> (works only in 1920w)
-
-    <br><br>
-
-Degree Project. The project is about the way to disprove the precondition of design ; be FRESH and UNIQUE. However, design, not only design all the thoughts, cannot be originated itself, rather all those are derived from others. If we cannot be totally free from influences, start from being completely derivative. I began by applying the statistical sampling as the design method to interpret the machinery graphic design world, and then created the sort of blueprint, consists of the frame of graphic design works, by borrowing the concept of musical sampling. The result is the collection of all existing works.
-
-            
-            </div>
-      
-    
-    
-    
-    
-    
-    
-        <div class="work_wide3" id='work04'>
+    <div class="img_wrap">
+        <div class="img_box">
             <iframe src="https://www.youtube.com/embed/zqZpcGHfT9I?autoplay=1" frameborder="0" allowfullscreen></iframe>
             <img src ="img/logo.jpg" class="logo" ><br>
             <img src="img/final01-wide_web.jpg"><br>
             <img src="img/Untitled-5.jpg"><br>
             <img src="img/Untitled-7.jpg">
             <img src="img/web-spread.jpg">
-            <div class='about'>
-                <a href="../Fleet/fleet.html">before</a> / <a href="../Ebola/ebola.html">next</a>  
-            </div>
-    </div> 
-        
-        
- 
+        </div>
     
     
     
     
     
-</div>
-    
-    
-
 </body>
 
 
+<script>
+function get_random_color() {
+    var letters = '0123456789ABCDEF'.split('');
+    var color = '#';
+    for (var i = 0; i < 6; i++ ) {
+        color += letters[Math.round(Math.random() * 15)];
+    }
+    return color;
+}
+
+$(function() {
+    $("a").mouseover(function() {
+        $(this).css({"color":get_random_color(),"transition":"0.3s"});
+        
+    });
     
-
-
-
-
-
-
-</html>
+    $("a").mouseout(function() {
+        $(this).css({"color":"black","transition":"0.5s"});
+    });
+});
+</script>

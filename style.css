@@ -13,386 +13,253 @@
 
 
 
-@font-face {
-    font-family: 'brandon_grotesque_regularRg';
-    src: url('brandon_reg-webfont.eot');
-    src: url('brandon_reg-webfont.eot?#iefix') format('embedded-opentype'),
-         url('brandon_reg-webfont.woff2') format('woff2'),
-         url('brandon_reg-webfont.woff') format('woff'),
-         url('brandon_reg-webfont.ttf') format('truetype'),
-         url('brandon_reg-webfont.svg#brandon_grotesque_regularRg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'maison_neuebook';
-    src: url('maisonneuebook-webfont.eot');
-    src: url('maisonneuebook-webfont.eot?#iefix') format('embedded-opentype'),
-         url('maisonneuebook-webfont.woff') format('woff'),
-         url('maisonneuebook-webfont.ttf') format('truetype'),
-         url('maisonneuebook-webfont.svg#maison_neuebook') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'maison_neuelight';
-    src: url('maisonneue-light-webfont.eot');
-    src: url('maisonneue-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('maisonneue-light-webfont.woff') format('woff'),
-         url('maisonneue-light-webfont.ttf') format('truetype'),
-         url('maisonneue-light-webfont.svg#maison_neuelight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-
-
-a:link {color:black; text-decoration: none; }
-a:visited {color:black; text-decoration: none;}
-a {cursor: pointer;}
-
-
-html, body {    
-    margin: 0 !important;
-    padding: 0 !important;
-    background-color: rgb(245,245,245);
+body{
+    margin: 0;
     font-family: Neuzeit S LT Std Book;
 }
 
-.container{
-    width:100%;
-    position: relative;
-    height: 100%;
-    font-family: Neuzeit S LT Std Book;
-}
+a:link{color: black; text-decoration: none;}
+a:hover{text-decoration: none;}
+a:visited{color: black; text-decoration: none;}
 
-.left{
-    position: relative;
-    float: left;
-    width:5%;
-    overflow: hidden;
-    
-}
 
-.left img{
-    height:100%;
-}
-
-.left185{
-    float: left;
-    position: relative;
-    width:100%;
-    height: 185px;
-    
-}
-
-#left01{
-    background-image: url(img/left01.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-    
-
- 
-.left400{
-    float: left;
-    position: relative;
-    width:100%;
-    height: 1200px;
-    background-image: url(img/linenew.svg);
-    background-repeat: repeat-y;
-    background-size:cover;
-}
+#woo{letter-spacing: 15px; margin: 0; margin-top: 16px;}
+.sup{font-size: 8px; position: relative; bottom: 0.7em; margin-left: 0.5em; font-weight: 800;}
 
 
 
-.name{
-    float: left;
-    position: relative;
-    width: 86%;
-    margin-top: 166px;
-    padding-left: 0.7%;
-    font-size: 16px;
-    letter-spacing: 3px;
-    vertical-align: bottom;
-    color: rgb(50,50,50);  
-}
-.index{
-    float: left;
-    position: relative;
-    width: 86%;
-    margin:165px 0 0 0.8%; 
-    color: rgb(50,50,50);
-    font-size:16px;
-    line-height: 9px;   
-    letter-spacing: 2px;
-}
-.bodytext{
-    font-size: 14px;
-    line-height :15px;
-    vertical-align: bottom;
-}
-
-.wrap{
-    top:370px;
-    left:5%;
-    width:94%;
-    height: 800px;
-    position: absolute;
-}
-
-
-.work_wide2{
-    width: 990px;
-    height: 400px;
-    position: relative;
-    float:left;
-}
-
-.work_title{
-    color:rgb(255,255,255);
-    font-size:14px;
-    line-height: 1.5em;
-    margin:0;
-    display: inline;
-}
-
-
-.work_category{
-    color:rgb(100,100,100);
-    font-size:14px;
-    line-height: 1em;
-    margin:0;
-    display: inline;
-}
-
-
-
-div.work_wide2#about{
-    height: 185px;
-    width: 85%;
-    font-size: 14px;
-}
-div.work#about1{
-    line-height: 350px;
-    width: 330px;
-    float:left;
-    height: inherit;
-    letter-spacing: 3px;
-}
-
-div.work#about_des{
-    height: inherit;
-    float: left;
-    width: 320px;
-    line-height: 1em;
+.navigation{
+    width: 49vw;
+    font-size:29px;
+    line-height: 40px;
     letter-spacing: 1px;
-    margin-top: 7%;
+    margin: 1vh 1vw;
+    z-index: 100;
 }
+.navigation a:hover{color:lightslategrey;}
+#back a:hover{color:indianred; transition: 0.5s;}
 
-
-
-div.work#about_des a:link{
-    text-decoration: underline;
+.workinfo{
+    width: 49vw;
+    height: 98vh;
+    font-size:29px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin: 1vh 1vw;
+    z-index: 100;
+    position: fixed;
 }
-
-
-div.work#ddd{
-    position: absolute;
-}
-div.work#eee{
-    position: absolute;
-}
-
-div.work#sss img{
-    width: 330px;
-    height: 400px;
-}
-
-div.work#eee img{
-    width: 330px;
-    height: 400px;
-    opacity: 0;
-}
-
-
-
-
-
-
-
-.work{
-    width: 330px;
-    height: 400px;
+.halftop{
     position: relative;
-    float:left;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    float: left;
+}
+#back{
+    display: flex;
+    align-items: flex-end;
+}
+.halfbottom{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    float: left;
+    align-self: flex-end;
+}  
+.halfleft{
+    position: relative;
+    width: 50%;
+    margin: 0;
+    float: left;
+} 
+.halfright{
+    position: relative;
+    width: 50%;
+    margin: 0;
+    float: left;
+} 
+
+
+p.bodytext{
+    font-size: 13px;
+    line-height: 20px;
+    margin-right: 16%;
+}
+   
+.backwrap{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin-top: 47vh;
+    top:0;
+    z-index: -1000;
+}
+
+.back{
+    position: fixed;
+    width: 70vw;
+    height: 67%;
+    margin:0px 15vw;
     background-size:100%;
-    
-}
-
-#white{
-    background-image: url(img/line4.svg);
-}
-#rebuild{
-    background-image: url(img/line5.svg);
-}
-#coursera{
-    background-image: url(img/line2.svg);
-}
-#princeton{
-    background-image: url(img/line6.svg);
-}
-#fleet{
-    background-image: url(img/line1.svg);
-}
-#dp{
-    background-image: url(img/line6.svg);
-}
-#ebola{
-    background-image: url(img/line5.svg);
-}
-#uncon{
-    background-image: url(img/line4.svg);
-}
-#bigger{
-    background-image: url(img/line2.svg);
-}
-#academy{
-    background-image: url(img/line3.svg);
-}
-#spatiality{
-    background-image: url(img/line4.svg);
-}
-
-
-
-.work figure {
-	position: relative;
-	float: left;
-	overflow: hidden;
-	margin: 0;
-	min-width: 330px;
-	max-width: 330px;
-	max-height: 400px;
-    width:48%;
-	cursor: pointer;
-}
-
-.work figure img{
+    background-position:top;
+    background-repeat: no-repeat;
     opacity: 0;
-    width: 100%;
-    transition: 0.5s;
 }
-
-.work figure:hover img{
-    opacity: 1;
-    transition: 0.2s;
-}
-
-
-.work figcaption{
-    width: 100%;
-    height:80px;
-    z-index: 1;
-    position: absolute;
-
-}
-figure.slide figcaption {
-	top: auto;
-	bottom: -10px;
-	height: 5em;
-	background-color: rgba(125,125,125,0.5);
-	color: white;
-    padding: 0.7em;
-    padding-left: 1.5em;
-    line-height: 1em;
-	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,100%,0);
-	transform: translate3d(0,100%,0);
-}
-
-figure.slide:hover figcaption {
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate(0,30px);
-    transition: 0.5s ease-in-out;
-}
+#wz6_back{background-image: url(pages/wz_6/img/01.jpg);}
+#wzweb_back{background-image: url(pages/wz_web/img/Untitled-4.jpg);}
+#coursera_back{background-image: url(pages/coursera/img/00.jpg); }
+#rebuild_back{background-image: url(pages/rebuild/img/00.jpg); }
+#aas_back{background-image: url(pages/aas_back.jpg); } 
+#fleet_back{background-image: url(pages/fleet_back.jpg); }
+#ebola_back{background-image: url(pages/ebola/img/logo.png); }
+#gds_back{background-image: url(pages/gds/img/00.jpg); }
+#uncon_back{background-image: url(pages/uncon_back.jpg); }
+#bigger_back{background-image: url(pages/bigger_back.gif); }
+#academy_back{background-image: url(pages/academy_back.jpg); }
+#spatiality_back{background-image: url(pages/spatiality_back.jpg); }   
+#mca_back{background-image: url(pages/mca_chicago/img/05.jpg);}
+#hdm_back{background-image: url(pages/hdm/img/02.jpg);}
+#magasin_back{background-image: url(pages/magasin/img/10.jpg);}
+#cnrepo_back{background-image: url(pages/cn_reposition/img/00.jpg);}
+#artbasel_back{background-image: url(pages/art_basel/img/00.jpg);}
 
 
-
-
-
-
-
-
-.work_wide{
-    width: 660px;
-    height: 400px;
+/*
+.description{
+    font-size:18px;
+    padding: 1%;
     position: relative;
-    float:left;
+    width: 48%;
 }
-
-
-.work_wide figure {
-	position: relative;
-	float: left;
-	overflow: hidden;
-	margin: 0;
-	min-width: 660px;
-	max-width: 660px;
-	max-height: 400px;
-    width:48%;
-	cursor: pointer;
+.about{
+    font-size:115px;
+    line-height: 125px;
+    padding-left: 1%;
+    padding-top: 1%;
+    position: relative;
 }
-
-.work_wide figure img{
-    opacity: 0;
-    width: 100%;
-    transition: 0.5s;
-}
-
-.work_wide figure:hover img{
-    opacity: 1;
-    transition: 0.2s;
-}
-
-
-.work_wide figcaption{
-    width: 100%;
-    height:80px;
-    z-index: 1;
+*/
+.img_wrap{
+    display: flex;
+    justify-content: center;
     position: absolute;
+    margin-top: 47vh;
+    width: 100%;
+}
+.img_box{
+    width: 70vw;
+    height: auto;
+}
+.img_box img{
+    width: 100%;
+    margin-bottom: 10vh;
+}
+.img_box iframe{
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 10vh;
+}
 
+.side{
+    width: 15%;
+    
+}
+.center{
+    width: 70%;
+}
+.center img{
+    width: 100%;
+}
+
+.navigation_mob{
+    font-size:40px;
+    line-height: 39px;
+    opacity: 0;
+    height: 0;
+    padding:0;
+    z-index: -1000;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (min-device-width : 1375px) and (max-device-width : 1680px) { 
     
+    .navigation{
+        font-size:102px;
+        line-height: 104px;
+    }
+    
+    .description{
+        font-size:15px;
+    }
+    .about{
+        font-size:110px;
+        line-height: 115px;
+    }    
+}
 
 
 
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) { 
+    
+    #woo{letter-spacing: 10px; margin: 0; margin-top: 12px;}
+    .sup{font-size: 5px; font-weight: 800; bottom:0.5em;}
+    .navigation{
+        width: 92vw;
+        font-size:18px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        margin: 1vh 4vw 1.5vh 4vw;
+        z-index: 100;
+    }
+    .workinfo{
+        width: 92vw;
+        height: 98vh;
+        font-size:18px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        margin: 1vh 4vw;
+        z-index: 100;
+        position: relative;
+    }
+    .backwrap{
+        width: 0;
+        height: 0;
+        position: fixed;
+        top: 0;
+        
+    }
+    .img_wrap{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        margin-top: 1vh;
+        width: 100%;
+    }
+    .img_box{
+        width: 92vw;
+        height: auto;
+    }
+    .img_box img{
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+    .img_box iframe{
+        width: 100%;
+        height: 35vh;
+        margin-bottom: 5vh;
+    }
+    p.bodytext{
+        font-size: 11px;
+        line-height: 17px;
+        margin-right: 0%;
+    }
+    .halfbottom{
+        position: fixed;
+        width: 100%;
+        margin: 0;
+        bottom: 1vh;
+    } 
 
-
+}

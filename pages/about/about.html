@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<head>
+     <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0, width=device-width">
+    
+    <title> wooseok shur</title>
+    
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="icon" type="image/png" href="img/favicon-01.png">
+    
+    
+</head>
+
+
+
+
+<body>
+    <div class="navigation">
+        <a href="../../index.html">WOOSEOK SHUR</a><br> —<br>
+    </div>
+    <div class="about">
+        RISD GRAPHIC DESIGN BFA 2015<br>
+        WOOSEOKSHUR@GMAIL.COM <br>
+        <a href="Wooseok%20Shur_resume.pdf" target="framename" >VIEW RESUME</a>
+    
+
+    </div>
+    
+    
+    
+    
+</body>
+
+
+<script>
+function get_random_color() {
+    var letters = '0123456789ABCDEF'.split('');
+    var color = '#';
+    for (var i = 0; i < 6; i++ ) {
+        color += letters[Math.round(Math.random() * 15)];
+    }
+    return color;
+}
+
+$(function() {
+    $("a").mouseover(function() {
+        $(this).css({"color":get_random_color(),"transition":"0.3s"});
+        
+    });
+    
+    $("a").mouseout(function() {
+        $(this).css({"color":"black","transition":"0.5s"});
+    });
+});
+</script>
