@@ -3,8 +3,7 @@
 <head>
      <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0, width=device-width">
-    <meta property="og:image" content="https://files.persona.co/8758/facebook.png"/>
-    <link rel="image_src" href="https://files.persona.co/8758/facebook.png" / >
+    <link rel="icon" type="image/png" href="img/favicon-01.png">
     <title> WOOSEOK SHUR</title>
     
     
@@ -12,7 +11,6 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="img/favicon-01.png">
     
     
 </head>
@@ -31,7 +29,7 @@
         <div class="back" id="artbasel_back"></div>
         <div class="back" id="coursera_back"></div>
         <div class="back" id="rebuild_back"></div>
-        <div class="back" id="aas_back"></div>
+        <div class="back" id="princeton_back"></div>
         <div class="back" id="fleet_back"></div>
         <div class="back" id="ebola_back"></div>
         <div class="back" id="gds_back"></div>
@@ -40,13 +38,6 @@
         <div class="back" id="academy_back"></div>
         <div class="back" id="spatiality_back"></div>
     </div>
-    <!--
-    <div class="navigation_mob">
-    WOOSEOK SHUR<br>
-—<br>
-        <a href="pages/white/white.html">WHITE ZINFANDEL</a> / <a href="pages/coursera/coursera.html">COURSERA</a> / <a>AAS21</a> / <a>REBUILD FOUNDATION</a> / <a>FLEET LIBRARY</a> / <a >EBOLALOG</a> /  <a >GRA-PHIC DESIGN SAMPLING</a> / <a >THE FORM OF UNCO-NSCIOUS PREFE-RENCES</a> / <a >ACA-DEMY AWARDS</a> / <a >BIGGER THAN YOURSELF</a> / <a >SPA-TIALITY</a> 
-    </div>
-    -->
     
     <div class="navigation">
         <p id="woo" >WOOSEOK SHUR</p>—<br>
@@ -59,20 +50,21 @@
         VOGUE VIP<sup class="sup">2016</sup> | 
         GENTLE MONSTER NY FLAGSHIP STORE<sup class="sup">2016</sup> | 
         LAND COLLECTIVE<sup class="sup">2016</sup> | 
+        VENICE BIENNALE<sup class="sup">2016</sup> | 
         WITH PROJECTS<sup class="sup">2016</sup> | 
         EVA PRESENHUBER<sup class="sup">2016</sup> | 
-        VENICE BIENNALE<sup class="sup">2016</sup> | 
         
         CFDA/VOGUE<sup class="sup">2015</sup> | 
         <a class="work" id="artbasel" href="pages/art_basel/art_basel.html">ART BASEL MIAMI<sup class="sup">2015</sup></a> | 
         <a class="work" id="wzweb" href="pages/wz_web/wz_web.html">WHITE ZINFANDEL WEB<sup class="sup">2015</sup></a> | 
         <a class="work" id="wz6" href="pages/wz_6/wz_6.html">WHITE ZINFANDEL NO.6<sup class="sup">2015</sup></a> | 
-        HORST<sup class="sup">2015</sup> | 
         <a class="work" id="mca" href="pages/mca_chicago/mca_chicago.html">MCA CHICAGO<sup class="sup">2015</sup></a> | 
+        HORST<sup class="sup">2015</sup> | 
+        
         <a class="work" id="coursera" href="pages/coursera/coursera.html">COURSERA<sup class="sup">2015</a> |
         <a class="work"  id="rebuild" href="pages/rebuild/rebuild.html">REBUILD FOUNDATION<sup class="sup">2015</a> |
-        <a class="work"id="aas">PRINCETON UNIVERSITY<sup class="sup">2015</a> | 
-        <a class="work" id="fleet">FLEET LIBRARY<sup class="sup">2015</a> |
+        <a class="work"id="princeton" href="pages/princeton/princeton.html">PRINCETON UNIVERSITY<sup class="sup">2015</a> | 
+        <a class="work" id="fleet" href="pages/fleet/fleet.html">FLEET LIBRARY<sup class="sup">2015</a> |
         <a class="work" id="ebola">EBOLALOG<sup class="sup">2015</a> |
         <a class="work" id="gds" href="pages/gds/gds.html">GRAPHIC DESIGN SAMPLING<sup class="sup">2015</a> | 
         <a class="work"  id="uncon">THE FORM OF UNCONSCIOUS PREFERENCES<sup class="sup">2014</a> |
@@ -142,11 +134,11 @@ $(document).ready(function() {
         function(){
             $("#rebuild_back").css({"opacity":"0", "transition":"0.5s"}); });
     
-    $("#aas").hover(
+    $("#princeton").hover(
         function(){
-            $("#aas_back").css({"opacity":"1", "transition":"0.3s"}); },
+            $("#princeton_back").css({"opacity":"1", "transition":"0.3s"}); },
         function(){
-            $("#aas_back").css({"opacity":"0", "transition":"0.5s"}); });
+            $("#princeton_back").css({"opacity":"0", "transition":"0.5s"}); });
     
     $("#fleet").hover(
         function(){
@@ -174,19 +166,19 @@ $(document).ready(function() {
 
     $("#bigger").hover(
         function(){
-            $("#bigger_back").css({"opacity":"0.5", "transition":"0.3s"}); },
+            $("#bigger_back").css({"opacity":"1", "transition":"0.3s"}); },
         function(){
             $("#bigger_back").css({"opacity":"0", "transition":"0.5s"}); });
 
     $("#academy").hover(
         function(){
-            $("#academy_back").css({"opacity":"0.5", "transition":"0.3s"}); },
+            $("#academy_back").css({"opacity":"1", "transition":"0.3s"}); },
         function(){
             $("#academy_back").css({"opacity":"0", "transition":"0.5s"}); });
 
     $("#spatiality").hover(
         function(){
-            $("#spatiality_back").css({"opacity":"0.5", "transition":"0.3s"}); },
+            $("#spatiality_back").css({"opacity":"1", "transition":"0.3s"}); },
         function(){
             $("#spatiality_back").css({"opacity":"0", "transition":"0.5s"}); });
     $("#mca").hover(
