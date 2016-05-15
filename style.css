@@ -106,23 +106,27 @@ p.bodytext{
     background-repeat: no-repeat;
     opacity: 0;
 }
-#wz6_back{background-image: url(pages/wz_6/img/01.jpg);}
-#wzweb_back{background-image: url(pages/wz_web/img/Untitled-4.jpg);}
+
+#academy_back{background-image: url(pages/academy_back.jpg); }
+#artbasel_back{background-image: url(pages/art_basel/img/00.jpg);}
+#bigger_back{background-image: url(pages/bigger_back.gif); }
 #coursera_back{background-image: url(pages/coursera/img/00.jpg); }
-#rebuild_back{background-image: url(pages/rebuild/img/00.jpg); }
-#princeton_back{background-image: url(pages/princeton/00.jpg); } 
+#cnrepo_back{background-image: url(pages/cn_reposition/img/Untitled-1.jpg);}
 #fleet_back{background-image: url(pages/fleet/img/Untitled-1.jpg); }
 #ebola_back{background-image: url(pages/ebola/img/logo.png); }
 #gds_back{background-image: url(pages/gds/img/00.jpg); }
+#grand_blue_back{background-image: url(pages/grand_blue/img/Screen%20Shot%202016-05-15%20at%207.21.24%20PM.png);}
 #uncon_back{background-image: url(pages/uncon_back.jpg); }
-#bigger_back{background-image: url(pages/bigger_back.gif); }
-#academy_back{background-image: url(pages/academy_back.jpg); }
-#spatiality_back{background-image: url(pages/spatiality_back.jpg); }   
+#hdm_back{background-image: url(pages/hdm/img/02.jpg);}  
 #mca_back{background-image: url(pages/mca_chicago/img/05.jpg);}
-#hdm_back{background-image: url(pages/hdm/img/02.jpg);}
 #magasin_back{background-image: url(pages/magasin/img/10.jpg);}
-#cnrepo_back{background-image: url(pages/cn_reposition/img/00.jpg);}
-#artbasel_back{background-image: url(pages/art_basel/img/00.jpg);}
+#princeton_back{background-image: url(pages/princeton/00.jpg); } 
+#rebuild_back{background-image: url(pages/rebuild/img/00.jpg); }
+#solar_back{background-image: url(pages/solar/img/_MG_2038.jpg);}
+#spatiality_back{background-image: url(pages/spatiality_back.jpg); } 
+#vogue_vip_back{background-image: url(pages/vogue_vip/img/Untitled-1.jpg);}
+#wz6_back{background-image: url(pages/wz_6/img/01.jpg);}
+#wzweb_back{background-image: url(pages/wz_web/img/Untitled-4.jpg);}
 
 
 /*
@@ -228,7 +232,19 @@ p.bodytext{
         height: 0;
         position: fixed;
         top: 0;
-        
+        opacity: 0;
+    }
+ 
+
+    .back{
+        position: fixed;
+        width: 0;
+        height: 0;
+        margin:0px 15vw;
+        background-size:100%;
+        background-position:top;
+        background-repeat: no-repeat;
+        opacity: 0;
     }
     .img_wrap{
         display: flex;
