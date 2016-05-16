@@ -2,6 +2,10 @@
 <!DOCTYPE html>
 <head>
      <meta charset="utf-8">
+    <meta name="keywords" content="Wooseok, Wooseok shur, RISD, design, ux, user experience, print, branding">
+    <meta name="description" content="Wooseok Shur Portfolios">
+    <meta name="author" content="Wooseok Shur">
+    <meta http-equiv="refresh" content="30">
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0, width=device-width">
     <link rel="icon" type="image/png" href="img/favicon-01.png">
     <title> WOOSEOK SHUR</title>
@@ -40,6 +44,7 @@
         <div class="back" id="academy_back"></div>
         <div class="back" id="spatiality_back"></div>
         <div class="back" id="vogue_vip_back"></div>
+        <div class="back" id="land_back"></div>
     </div>
     
     <div class="navigation">
@@ -50,9 +55,9 @@
         <a class="work" id="magasin" href="pages/magasin/magasin.html">MAGASIN<sup class="sup">2016</sup></a> |
        
         <a class="work" id="grand_blue" href="pages/grand_blue/grand_blue.html">THE GRAND BLUE<sup class="sup">2016</a></sup> | 
-        <a class="work" id="vogue_vip" href="pages/vogue_vip/vogue_vip.html">VOGUE VIP<sup class="sup">2016</sup></a> | 
+        <a class="work" id="vogue_vip" href="pages/vogue_vip/vogue_vip.html">VOGUE<sup class="sup">2016</sup></a> | 
         <a class="work" id="solar" href="pages/solar/solar.html">GENTLE MONSTER NY FLAGSHIP STORE<sup class="sup">2016</a></sup> | 
-        LAND COLLECTIVE<sup class="sup">2016</sup> | 
+        <a class="work" id="land" href="pages/land/land.html">LAND COLLECTIVE<sup class="sup">2016</sup></a> | 
         VENICE BIENNALE<sup class="sup">2016</sup> | 
         WITH PROJECTS<sup class="sup">2016</sup> | 
         EVA PRESENHUBER<sup class="sup">2016</sup> | 
@@ -70,10 +75,10 @@
         <a class="work" id="fleet" href="pages/fleet/fleet.html">FLEET LIBRARY<sup class="sup">2015</a> |
         <a class="work" id="ebola" href="pages/ebola/ebola.html">EBOLALOG<sup class="sup">2015</a> |
         <a class="work" id="gds" href="pages/gds/gds.html">GRAPHIC DESIGN SAMPLING<sup class="sup">2015</a> | 
-        <a class="work"  id="uncon">THE FORM OF UNCONSCIOUS PREFERENCES<sup class="sup">2014</a> |
-        <a class="work"  id="bigger">BIGGER THAN YOURSELF<sup class="sup">2014</a> |
-        <a class="work" id="academy">ACADEMY AWARD<sup class="sup">2015</a> | 
-        <a class="work"  id="spatiality">SPATIALITY<sup class="sup">2013</a><br>
+        <a class="work"  id="uncon" href="pages/unconscious/uncon.html">THE FORM OF UNCONSCIOUS PREFERENCES<sup class="sup">2014</a> |
+        <a class="work"  id="bigger" href="pages/bigger/bigger.html">BIGGER THAN YOURSELF<sup class="sup">2014</a> |
+        <a class="work" id="academy" href="pages/academy/academy.html">ACADEMY AWARD<sup class="sup">2015</a> | 
+        <a class="work"  id="spatiality" href="pages/spatiality/spatiality.html">SPATIALITY<sup class="sup">2013</a><br>
         —<br>
         RISD Graphic Design BFA 2015<br>
             <a href="mailto:wooseokshur@gmail.com">wooseokshur@gmail.com</a> <br>
@@ -224,6 +229,11 @@ $(document).ready(function() {
             $("#vogue_vip_back").css({"opacity":"1", "transition":"0.5s"}); },
         function(){
             $("#vogue_vip_back").css({"opacity":"0", "transition":"0.5s"}); });
+    $("#land").hover(
+        function(){
+            $("#land_back").css({"opacity":"1", "transition":"0.5s"}); },
+        function(){
+            $("#land_back").css({"opacity":"0", "transition":"0.5s"}); });
 
 
 
