@@ -46,6 +46,10 @@
         <div class="back" id="land_back"></div>
         <div class="back" id="bewag_back"></div>
         <div class="back" id="cfda_back"></div>
+        <div class="back" id="eva_back"></div>
+        <div class="back" id="with_back"></div>
+        <div class="back" id="kaplan_back"></div>
+        <div class="back" id="rane_back"></div>
     </div>
     
     <div class="navigation">
@@ -62,8 +66,8 @@
         <a class="work" id="solar" href="pages/solar/solar.html">GENTLE MONSTER INVITE<sup class="sup">2016</a></sup> | 
         
         <a class="work" id="bewag" href="pages/bewag/bewag.html">VENICE BIENNALE<sup class="sup">2016</sup></a> | 
-        WITH PROJECTS<sup class="sup">2016</sup> | 
-        EVA PRESENHUBER<sup class="sup">2016</sup> | 
+        <a class="work" id="with" href="pages/with/with.html">WITH PROJECTS<sup class="sup">2016</sup></a> | 
+        <a class="work" id="eva" href="pages/eva/eva.html">EVA PRESENHUBER<sup class="sup">2016</sup></a> | 
         
         <a class="work" id="cfda" href="pages/cfda/cfda.html">CFDA/VOGUE<sup class="sup">2015</sup></a> | 
         <a class="work" id="artbasel" href="pages/art_basel/art_basel.html">ART BASEL MIAMI<sup class="sup">2015</sup></a> | 
@@ -75,6 +79,8 @@
         <a class="work" id="coursera" href="pages/coursera/coursera.html">COURSERA<sup class="sup">2015</a> |
         <a class="work"  id="rebuild" href="pages/rebuild/rebuild.html">REBUILD FOUNDATION<sup class="sup">2015</a> |
         <a class="work"id="princeton" href="pages/princeton/princeton.html">PRINCETON UNIVERSITY<sup class="sup">2015</a> | 
+        <a class="work"id="kaplan" href="pages/kaplan/kaplan.html">KAPLAN<sup class="sup">2015</sup></a> | 
+        <a class="work"id="rane" href="pages/rane/rane.html">RANE NETWORK<sup class="sup">2015</sup></a> | 
         <a class="work" id="fleet" href="pages/fleet/fleet.html">FLEET LIBRARY<sup class="sup">2015</a> |
         <a class="work" id="ebola" href="pages/ebola/ebola.html">EBOLALOG<sup class="sup">2015</a> |
         <a class="work" id="gds" href="pages/gds/gds.html">GRAPHIC DESIGN SAMPLING<sup class="sup">2015</a> | 
@@ -247,7 +253,26 @@ $(document).ready(function() {
             $("#cfda_back").css({"opacity":"1", "transition":"0.5s"}); },
         function(){
             $("#cfda_back").css({"opacity":"0", "transition":"0.5s"}); });
-
+    $("#eva").hover(
+        function(){
+            $("#eva_back").css({"opacity":"1", "transition":"0.5s"}); },
+        function(){
+            $("#eva_back").css({"opacity":"0", "transition":"0.5s"}); });
+    $("#with").hover(
+        function(){
+            $("#with_back").css({"opacity":"1", "transition":"0.5s"}); },
+        function(){
+            $("#with_back").css({"opacity":"0", "transition":"0.5s"}); });
+    $("#kaplan").hover(
+        function(){
+            $("#kaplan_back").css({"opacity":"1", "transition":"0.5s"}); },
+        function(){
+            $("#kaplan_back").css({"opacity":"0", "transition":"0.5s"}); });
+    $("#rane").hover(
+        function(){
+            $("#rane_back").css({"opacity":"1", "transition":"0.5s"}); },
+        function(){
+            $("#rane_back").css({"opacity":"0", "transition":"0.5s"}); });
 
 
 
