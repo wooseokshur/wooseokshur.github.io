@@ -5,7 +5,6 @@
     <meta name="keywords" content="Wooseok, Wooseok shur, RISD, design, ux, user experience, print, branding">
     <meta name="description" content="Wooseok Shur Portfolios">
     <meta name="author" content="Wooseok Shur">
-    <meta http-equiv="refresh" content="30">
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0, width=device-width">
     <link rel="icon" type="image/png" href="img/favicon-01.png">
     <title> WOOSEOK SHUR</title>
@@ -45,6 +44,8 @@
         <div class="back" id="spatiality_back"></div>
         <div class="back" id="vogue_vip_back"></div>
         <div class="back" id="land_back"></div>
+        <div class="back" id="bewag_back"></div>
+        <div class="back" id="cfda_back"></div>
     </div>
     
     <div class="navigation">
@@ -53,17 +54,18 @@
         <a class="work" id="cnrepo" href="pages/cn_reposition/cn_reposition.html">CONDÉ NAST REPOSITION<sup class="sup">2016</sup></a> | 
         <a class="work" id="hdm" href="pages/hdm/hdm.html">HARVARD DESIGN MAGAZINE<sup class="sup">2015</sup></a> | 
         <a class="work" id="vogue_vip" href="pages/vogue_vip/vogue_vip.html">VOGUE<sup class="sup">2016</sup></a> | 
+        <a class="work" id="vogue_metgala" >VOGUE MET GALA<sup class="sup">2016</sup></a> | 
         <a class="work" id="magasin" href="pages/magasin/magasin.html">MAGASIN<sup class="sup">2016</sup></a> |
-        <a class="work" id="land" href="pages/land/land.html">LAND COLLECTIVE<sup class="sup">2016</sup></a> | 
-        <a class="work" id="grand_blue" href="pages/grand_blue/grand_blue.html">THE GRAND BLUE<sup class="sup">2016</a></sup> | 
         
+        <a class="work" id="grand_blue" href="pages/grand_blue/grand_blue.html">THE GRAND BLUE<sup class="sup">2016</a></sup> | 
+        <a class="work" id="land" href="pages/land/land.html">LAND COLLECTIVE<sup class="sup">2016</sup></a> | 
         <a class="work" id="solar" href="pages/solar/solar.html">GENTLE MONSTER INVITE<sup class="sup">2016</a></sup> | 
         
-        VENICE BIENNALE<sup class="sup">2016</sup> | 
+        <a class="work" id="bewag" href="pages/bewag/bewag.html">VENICE BIENNALE<sup class="sup">2016</sup></a> | 
         WITH PROJECTS<sup class="sup">2016</sup> | 
         EVA PRESENHUBER<sup class="sup">2016</sup> | 
         
-        CFDA/VOGUE<sup class="sup">2015</sup> | 
+        <a class="work" id="cfda" href="pages/cfda/cfda.html">CFDA/VOGUE<sup class="sup">2015</sup></a> | 
         <a class="work" id="artbasel" href="pages/art_basel/art_basel.html">ART BASEL MIAMI<sup class="sup">2015</sup></a> | 
         <a class="work" id="wzweb" href="pages/wz_web/wz_web.html">WHITE ZINFANDEL WEB<sup class="sup">2015</sup></a> | 
         <a class="work" id="wz6" href="pages/wz_6/wz_6.html">WHITE ZINFANDEL NO.6<sup class="sup">2015</sup></a> | 
@@ -235,6 +237,16 @@ $(document).ready(function() {
             $("#land_back").css({"opacity":"1", "transition":"0.5s"}); },
         function(){
             $("#land_back").css({"opacity":"0", "transition":"0.5s"}); });
+    $("#bewag").hover(
+        function(){
+            $("#bewag_back").css({"opacity":"1", "transition":"0.5s"}); },
+        function(){
+            $("#bewag_back").css({"opacity":"0", "transition":"0.5s"}); });
+    $("#cfda").hover(
+        function(){
+            $("#cfda_back").css({"opacity":"1", "transition":"0.5s"}); },
+        function(){
+            $("#cfda_back").css({"opacity":"0", "transition":"0.5s"}); });
 
 
 

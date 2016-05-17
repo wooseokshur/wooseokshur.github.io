@@ -120,9 +120,11 @@ p.bodytext{
 
 #academy_back{background-image: url(pages/academy/img/Untitled-7.jpg); }
 #artbasel_back{background-image: url(pages/art_basel/img/00.jpg);}
+#bewag_back{background-image: url(pages/bewag/img/Untitled-1.jpg); }
 #bigger_back{background-image: url(pages/bigger/img/bigger_back.gif); }
+#cfda_back{background-image: url(pages/cfda/img/Untitled-1.jpg); }
 #coursera_back{background-image: url(pages/coursera/img/00.jpg); }
-#cnrepo_back{background-image: url(pages/cn_reposition/img/Untitled-1.jpg);}
+#cnrepo_back{background-image: url(pages/cn_reposition/img/Logo1.jpg);}
 #fleet_back{background-image: url(pages/fleet/img/Untitled-1.jpg); }
 #ebola_back{background-image: url(pages/ebola/img/logo.png); }
 #gds_back{background-image: url(pages/gds/img/00.jpg); }
@@ -205,7 +207,9 @@ p.bodytext{
     padding:0;
     z-index: -1000;
 }
-
+#gif{width: 60%;
+    margin-left: 20%;
+}
 
 
 @media only screen and (min-device-width : 1375px) and (max-device-width : 1680px) { 
@@ -298,5 +302,8 @@ p.bodytext{
         margin: 0;
         bottom: 1vh;
     } 
+    #gif{width: 100%;
+    margin-left: 0%;
+}
 
 }
