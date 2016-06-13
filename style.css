@@ -117,6 +117,7 @@ p.bodytext{
     opacity: 0;
 }
 
+.imghover:hover{opacity: 0.5; transition: 0.3s;}
 
 #academy_back{background-image: url(pages/academy/img/Untitled-7.jpg); }
 #artbasel_back{background-image: url(pages/art_basel/img/00.jpg);}
@@ -125,11 +126,12 @@ p.bodytext{
 #cfda_back{background-image: url(pages/cfda/img/Untitled-1.jpg); }
 #coursera_back{background-image: url(pages/course/img/00.jpg); }
 #cnrepo_back{background-image: url(pages/cn_reposition/img/Logo1.jpg);}
+#cn_videos_back{background-image: url(pages/cn_videos/img/00.jpg);}
 #fleet_back{background-image: url(pages/fleet/img/Untitled-1.jpg); }
 #ebola_back{background-image: url(pages/ebola/img/logo.png); }
 #eva_back{background-image: url(pages/eva/img/book0.jpg); }
 #gdsampling_back{background-image: url(pages/gdsampling/img/00.jpg); }
-#grand_blue_back{background-image: url(pages/grand_blue/img/Screen%20Shot%202016-05-15%20at%207.21.24%20PM.png);}
+#grand_blue_back{background-image: url(pages/grand_blue/img/03.jpg);}
 #hdm_back{background-image: url(pages/hdm/img/02.jpg);} 
 #horst_back{background-image: url(pages/horst/img/02.jpg);} 
 #kaplan_back{background-image: url(pages/kaplan/img/web.jpg);}
