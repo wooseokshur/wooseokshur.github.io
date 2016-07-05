@@ -59,6 +59,9 @@ a:visited{color: black; text-decoration: none;}
     z-index: 100;
     position: fixed;
 }
+
+
+
 .halftop{
     position: relative;
     width: 100%;
@@ -66,6 +69,27 @@ a:visited{color: black; text-decoration: none;}
     margin: 0;
     float: left;
 }
+
+.halftop1{
+    font-size:29px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin: 1vh 1vw;
+    position: fixed;
+    width: 49vw;
+    z-index: 100;
+}
+.backbutton{
+    position: fixed;
+    bottom: 0;
+    font-size:29px;
+    margin: 1vh 1vw;
+    width: auto;
+    float: left;
+    z-index: 100;
+    letter-spacing: 1px;
+}  
+
 #back{
     display: flex;
     align-items: flex-end;
