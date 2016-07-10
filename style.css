@@ -244,20 +244,26 @@ p.bodytext{
 }
 
 
-@media only screen and (min-device-width : 1375px) and (max-device-width : 1680px) { 
+
+
+@media only screen and (max-width : 1299px) { 
     
     .navigation{
-        font-size:102px;
-        line-height: 104px;
+        font-size:23px;
+        line-height: 32px;
     }
     
-    .description{
-        font-size:15px;
+    
+}
+
+@media only screen and (min-width : 1300px) and (max-width : 1600px) { 
+    
+    .navigation{
+        font-size:25px;
+        line-height: 34px;
     }
-    .about{
-        font-size:110px;
-        line-height: 115px;
-    }    
+    
+    
 }
 
 
