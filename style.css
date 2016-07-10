@@ -28,7 +28,7 @@ body{
     font-family: Neuzeit S LT Std Book;
 }
 
-a:link{color: black; text-decoration: none;}
+a:link{color: black; text-decoration:none;}
 a:hover{text-decoration: none;}
 a:visited{color: black; text-decoration: none;}
 
@@ -275,6 +275,16 @@ p.bodytext{
         z-index: 100;
     }
     .workinfo{
+        width: 92vw;
+        height: 70vh;
+        font-size:18px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        margin: 1vh 4vw;
+        z-index: 100;
+        position: relative;
+    }
+    .halftop1{
         width: 92vw;
         height: 70vh;
         font-size:18px;
