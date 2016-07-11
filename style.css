@@ -334,6 +334,7 @@ p.bodytext{
     .img_box{
         width: 92vw;
         height: auto;
+        margin-bottom: 5vh;
     }
     .img_box img{
         width: 100%;
