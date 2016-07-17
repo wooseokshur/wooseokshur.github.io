@@ -50,7 +50,7 @@ a:visited{color: black; text-decoration: none;}
 #back a:hover{color:indianred; transition: 0.5s;}
 
 .workinfo{
-    width: 33vw;
+    width: 49vw;
     height: 98vh;
     font-size:29px;
     line-height: 40px;
@@ -76,7 +76,7 @@ a:visited{color: black; text-decoration: none;}
     letter-spacing: 1px;
     margin: 1vh 1vw;
     position: fixed;
-    width: 33vw;
+    width: 49vw;
     z-index: 100;
 }
 .backbutton{
@@ -118,7 +118,6 @@ a:visited{color: black; text-decoration: none;}
 p.bodytext{
     font-size: 13px;
     line-height: 20px;
-    margin-right: 8%;
 }
    
 .backwrap{
