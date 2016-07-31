@@ -243,27 +243,17 @@ p.bodytext{
 }
 
 
-@media only screen and (min-width : 2200px) and (max-width : 2560px) { 
+@media only screen and (min-width : 2300px) and (max-width : 2560px) { 
     .navigation{
         font-size:39px;
         line-height: 52px;
     }
 }
-@media only screen and (min-width : 1921px) and (max-width : 2199px) { 
+@media only screen and (min-width : 2000px) and (max-width : 2299px) { 
     .navigation{
         font-size:35px;
         line-height: 48px;
     }
-}
-
-@media only screen and (max-width : 1299px) { 
-    
-    .navigation{
-        font-size:23px;
-        line-height: 32px;
-    }
-    
-    
 }
 
 @media only screen and (min-width : 1300px) and (max-width : 1600px) { 
@@ -273,8 +263,17 @@ p.bodytext{
         line-height: 34px;
     }
     
-    
 }
+
+@media only screen and (max-width : 1299px) { 
+    
+    .navigation{
+        font-size:23px;
+        line-height: 32px;
+    }   
+}
+
+
 
 
 
