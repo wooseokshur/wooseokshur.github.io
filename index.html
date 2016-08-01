@@ -51,12 +51,14 @@
         <div class="back" id="kaplan_back"></div>
         <div class="back" id="rane_back"></div>
         <div class="back" id="horst_back"></div>        
-        <div class="back" id="cn_videos_back"></div>
+        <div class="back" id="cn_videos_back"></div>  
+        <div class="back" id="bogus_back"></div>
     </div>
     
     <div class="navigation">
         <p id="woo" >WOOSEOK SHUR</p>—<br>
         
+        <a class="work" id="bogus" href="pages/bogus/bogus.html" >BOGUS STUDIO<sup class="sup">2016</sup></a> | 
         <a class="work" href="#">CONDÉ NAST ARCHIVE<sup class="sup">2016</sup></a> | 
         <a class="work" id="cn_videos" href="pages/cn_videos/cn_videos.html" >#CREATIVITYIS VIDEO SERIES<sup class="sup">2016</sup></a> | 
         <a class="work" id="cnrepo" href="pages/cn_reposition/cn_reposition.html">CONDÉ NAST REPOSITION<sup class="sup">2016</sup></a> | 
@@ -286,6 +288,12 @@ $(document).ready(function() {
             $("#cn_videos_back").css({"opacity":"1", "transition":"0.5s"}); },
         function(){
             $("#cn_videos_back").css({"opacity":"0", "transition":"0.5s"}); });
+    $("#bogus").hover(
+        function(){
+            $("#bogus_back").css({"opacity":"1", "transition":"0.5s"}); },
+        function(){
+            $("#bogus_back").css({"opacity":"0", "transition":"0.5s"}); });
+
 
 
 
