@@ -390,7 +390,12 @@ p.bodytext{
         bottom: 1vh;
     } 
     #gif{width: 100%;
-    margin-left: 0%;
-}
+        margin-left: 0%;
+    }
+    .video_half{
+        width: 80%;
+        float:left;
+        margin: 0 10% 8% 10%;
+    }
 
 }
