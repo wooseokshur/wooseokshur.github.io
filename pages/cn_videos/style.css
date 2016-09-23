@@ -250,10 +250,14 @@ p.bodytext{
 .video_half{
     width: 50%;
     float:left;
-    margin-bottom: 3%;
+    height: 75vh;
 }
 
-
+.instagram-media{
+    width: 90%;
+    width:-webkit-calc(100% - 10%); 
+    width:calc(100% - 10%);
+}
 
 
 
