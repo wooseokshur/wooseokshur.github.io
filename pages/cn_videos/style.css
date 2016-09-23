@@ -206,7 +206,9 @@ p.bodytext{
     
 }
 .img_box iframe{
-    width: 100%;
+    width: 90%;
+    width:-webkit-calc(100% - 10%); 
+    width:calc(100% - 10%);
     margin-bottom: 10vh;
 }
 #grid {
@@ -250,7 +252,7 @@ p.bodytext{
 .video_half{
     width: 50%;
     float:left;
-    height: 75vh;
+    height: 80vh;
 }
 
 .instagram-media{
